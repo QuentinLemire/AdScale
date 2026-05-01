@@ -72,15 +72,25 @@ Le projet repose sur une **simulation de données Meta Ads** :
 # 📁 Structure du projet
 
 AdScale/
+
 ├── frontend/
+
 │   ├── src/
+
 │   │   ├── components/
+
 │   │   ├── pages/
+
 │   │   ├── assets/
+
 │   │   └── App.jsx
+
 │   ├── package.json
+
 │   └── vite.config.js
+
 ├── backend/ (non utilisé en prod)
+
 └── README.md
 
 ---
@@ -92,19 +102,3 @@ git clone https://github.com/QuentinLemire/AdScale.git
 cd AdScale/frontend
 npm install
 npm run dev
-
-# 🎯 Installation en local
-
-Ce projet a été conçu pour :
-
-* Simuler un outil SaaS marketing
-* Comprendre la logique des KPIs publicitaires
-* Développer une interface data-driven
-* Créer un projet valorisable en portfolio
-
-🚀 Améliorations futures
-
-* Connexion réelle à l’API Meta Ads
-* Ajout d’IA pour recommandations automatiques
-* Export des données (PDF / CSV)
-* Multi-comptes utilisateurs
